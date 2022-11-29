@@ -1,0 +1,60 @@
+.text--op-light {
+  opacity: 75%;
+}
+
+.font--sz-small {
+  font-size: 0.8rem;
+}
+
+.font--sz-medium {
+  font-size: 1rem;
+}
+
+.font--c-yellow {
+    color: #F3CD03;
+}
+
+.bg--c-Calypso {
+    background-color: #295C7A;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.video__container {
+  max-width: 1440px;
+  width: 80%;
+}
+
+.video-container-heading {
+  margin: auto;
+  width: 60%;
+}
+
+.video__thumbnail-div {
+  background-image: url('../images/thumbnail.png');
+  background-size: cover;
+}
+
+.video__thumbnail-div > button {
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.video__thumbnail-div > img {
+    height: -webkit-fill-available;
+  }
+
+.carousel__container {
+    max-width: 1360px;
+    margin: auto;
+}
+
+.carousel__items {
+    border-radius: 3px;
+    /* min-width: 200px; */
+}
