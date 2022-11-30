@@ -145,7 +145,7 @@
               ></button>
             </div>
             <div class="modal-body">
-              <video class="w-100" autoplay controls loop muted>
+              <video id="video-id" class="w-100" autoplay controls loop muted>
                 <source
                   src="https://mdbcdn.b-cdn.net/img/video/Tropical.mp4"
                   type="video/mp4"
@@ -352,6 +352,12 @@
           },
         });
       });
+
+      const myVideo = document.querySelector('#video-id');
+      $('.btn-close').click(function() {
+        myVideo.pause();
+      })
+
     </script>
 
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
