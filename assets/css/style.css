@@ -12,11 +12,11 @@
 
 .font--c-yellow {
     color: #F3CD03;
-}
+  }
 
 .bg--c-Calypso {
     background-color: #295C7A;
-}
+  }
 
 ul {
   list-style: none;
@@ -50,11 +50,24 @@ ul {
   }
 
 .carousel__container {
-    max-width: 1360px;
     margin: auto;
-}
+    max-width: 1360px;
+  }
 
 .carousel__items {
     border-radius: 3px;
-    /* min-width: 200px; */
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    
+    /*  */
+  }
+
+.carousel__items-avatar {
+  border-radius: 50%;
+  height: 50px;
+  left: -30px;
+  position: absolute;
+  top: 20px;
+  width: 50px;
 }

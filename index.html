@@ -23,6 +23,7 @@
       href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"
     />
 
+    <link rel="stylesheet" src="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
@@ -52,7 +53,7 @@
             </div>
             <div class="col-0 col-md-1 p-0"></div>
             <div
-              class="col-12 col-md-5 text-start p-0 d-flex my-5 my-md-0 align-content-center justify-content-center"
+              class="col-12 col-md-5 text-start p-0 d-flex mt-5 my-md-0 align-content-center justify-content-center"
             >
               <div>
                 <h2>Most trusted in our field</h2>
@@ -157,8 +158,16 @@
     </section>
     <section class="carousel bg--c-Calypso text-light py-5 px-3">
       <div class="carousel__container">
+        <h1 class="text-center">What Clients Say</h1>
+        <p class="text-center mb-5">
+          Problems trying to resolve the conflict between the two major realms
+          of Classical physics: Newtonian mechanics
+        </p>
         <div class="owl-carousel">
-          <div class="bg-light text-dark p-3 carousel__items">
+          <div class="bg-light text-dark p-4 carousel__items">
+            <div class="carousel__items-avatar">
+              <img src="assets/images/avatar.png" class="img-fluid" alt="Regina-Miles-Avatar" />
+            </div>
             <h2>Regina Miles</h2>
             <p>Designer</p>
             <p>
@@ -176,7 +185,10 @@
               first and then space.
             </p>
           </div>
-          <div class="bg-light text-dark p-3 carousel__items">
+          <div class="bg-light text-dark p-4 carousel__items">
+            <div class="carousel__items-avatar">
+              <img src="assets/images/avatar.png" class="img-fluid" alt="Regina-Miles-Avatar" />
+            </div>
             <h2>Regina Miles</h2>
             <p>Designer</p>
             <p>
@@ -194,7 +206,10 @@
               first and then space.
             </p>
           </div>
-          <div class="bg-light text-dark p-3 carousel__items">
+          <div class="bg-light text-dark p-4 carousel__items">
+            <div class="carousel__items-avatar">
+              <img src="assets/images/avatar.png" class="img-fluid" alt="Regina-Miles-Avatar" />
+            </div>
             <h2>Regina Miles</h2>
             <p>Designer</p>
             <p>
@@ -212,7 +227,10 @@
               first and then space.
             </p>
           </div>
-          <div class="bg-light text-dark p-3 carousel__items">
+          <div class="bg-light text-dark p-4 carousel__items">
+            <div class="carousel__items-avatar">
+              <img src="assets/images/avatar.png" class="img-fluid" alt="Regina-Miles-Avatar" />
+            </div>
             <h2>Regina Miles</h2>
             <p>Designer</p>
             <p>
@@ -230,7 +248,10 @@
               first and then space.
             </p>
           </div>
-          <div class="bg-light text-dark p-3 carousel__items">
+          <div class="bg-light text-dark p-4 carousel__items">
+            <div class="carousel__items-avatar">
+              <img src="assets/images/avatar.png" class="img-fluid" alt="Regina-Miles-Avatar" />
+            </div>
             <h2>Regina Miles</h2>
             <p>Designer</p>
             <p>
@@ -248,7 +269,10 @@
               first and then space.
             </p>
           </div>
-          <div class="bg-light text-dark p-3 carousel__items">
+          <div class="bg-light text-dark p-4 carousel__items">
+            <div class="carousel__items-avatar">
+              <img src="assets/images/avatar.png" class="img-fluid" alt="Regina-Miles-Avatar" />
+            </div>
             <h2>Regina Miles</h2>
             <p>Designer</p>
             <p>
@@ -266,7 +290,10 @@
               first and then space.
             </p>
           </div>
-          <div class="bg-light text-dark p-3 carousel__items">
+          <div class="bg-light text-dark p-4 carousel__items">
+            <div class="carousel__items-avatar">
+              <img src="assets/images/avatar.png" class="img-fluid" alt="Regina-Miles-Avatar" />
+            </div>
             <h2>Regina Miles</h2>
             <p>Designer</p>
             <p>
@@ -290,33 +317,41 @@
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
-        //   stagePadding: 30,
           loop: true,
           margin: 10,
           responsiveClass: true,
           responsive: {
             0: {
-              items: 2,
+              items: 1,
               nav: false,
               loop: true,
+              margin: 60
             },
-            600: {
-              items: 2,
+            476: {
+              items: 1,
               nav: false,
               loop: true,
+              stagePadding: 130,
+              margin: 60
+            },
+            768: {
+              items: 1,
+              nav: false,
+              loop: true,
+              stagePadding: 230,
               margin: 60,
             },
-            1000: {
+            986: {
               items: 3,
               nav: false,
               loop: true,
               margin: 60,
-            },
+            }
           },
         });
       });
     </script>
 
-    <!-- <script src="../assets/js/app.js"></script>  -->
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
