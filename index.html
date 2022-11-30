@@ -156,7 +156,8 @@
         </div>
       </div>
     </section>
-    <section class="carousel bg--c-Calypso text-light py-5 px-3">
+
+    <section class="carousel bg--c-Calypso text-light py-5 px-3 mx-3">
       <div class="carousel__container">
         <h1 class="text-center">What Clients Say</h1>
         <p class="text-center mb-5">
@@ -318,6 +319,7 @@
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
           loop: true,
+          nav:true,
           margin: 10,
           responsiveClass: true,
           responsive: {
@@ -338,10 +340,10 @@
               items: 1,
               nav: false,
               loop: true,
-              stagePadding: 230,
-              margin: 60,
+              stagePadding: 250,
+              margin: 30,
             },
-            986: {
+            1140: {
               items: 3,
               nav: false,
               loop: true,
